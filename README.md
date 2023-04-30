@@ -10,3 +10,6 @@
 ### 3D Printing Software: Ultimaker Cura (<a href="https://www.youtube.com/watch?v=i-2qFVHKULE">Tutorial1</a>, <a href="https://www.youtube.com/watch?v=ejTC82nLS9g">Tutorial2</a>)
 - Note on tutorial2: 15:25, 27:10, 34:20
 
+### Other notes
+- Had problem with PETG material melting and cover the nozzle that leads to peeling off the first layer. Choose "PETG" default from Cura, turn down the cooling fan to 40%, make the first layer thicker to 0.12mm, lowering down the bed slightly, heating up the bed to 80C, and cropping out the excess strings using a plier during the printing of the first layer (alos raised the nozzle temperature to 230C; not sure if this helped). 
+
