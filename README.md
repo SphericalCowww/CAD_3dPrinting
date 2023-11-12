@@ -8,6 +8,7 @@
 - for sketch, remove extra lines before using the padding option
 - needs to redefine dimension for sketches after trimming; topological naming problem => <a href="https://www.youtube.com/watch?v=0UlnrG-2atk">vid</a>
 - gear package in FreeCAD => <a href="https://www.youtube.com/watch?v=Wu-zGDy7WQI">vid</a>, <a href="https://fab.cba.mit.edu/classes/863.09/people/cranor/How_to_Make_(Almost)_Anything/David_Cranor/Entries/2009/10/12_Entry_1_files/module.pdf">def</a>
+- Note the tolerance is at least 0.2mm on each edge
 
 ### 3D Printing Software: Ultimaker Cura (<a href="https://www.youtube.com/watch?v=i-2qFVHKULE">Tutorial1</a>, <a href="https://www.youtube.com/watch?v=ejTC82nLS9g">Tutorial2</a>)
 - Note on tutorial2: 15:25, 27:10, 34:20
