@@ -5,7 +5,7 @@
 - in case the filament breaks (because of moisture), run "auto unload", unscrew the Teflon tube, pull out the filament, introduce the filament, and run "autoload". If small pieces are left in the Teflon tube, can either insert a new one regardless or run "autoload" to melt them out
 
 ### CAD: FreeCAD (<a href="https://www.youtube.com/watch?v=uh5aN_Di8J0">Tutorial</a>)
-- View/Workbench/Part Design
+- View/Workbench/Part Design => this also enable the delete option for the parts
 - for sketch, remove extra lines before using the padding option
 - needs to redefine dimension for sketches after trimming; topological naming problem => <a href="https://www.youtube.com/watch?v=0UlnrG-2atk">vid</a>
 - gear package in FreeCAD => <a href="https://www.youtube.com/watch?v=Wu-zGDy7WQI">vid</a>, <a href="https://fab.cba.mit.edu/classes/863.09/people/cranor/How_to_Make_(Almost)_Anything/David_Cranor/Entries/2009/10/12_Entry_1_files/module.pdf">def</a>
