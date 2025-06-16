@@ -14,6 +14,25 @@
 ### 3D Printing Software: Ultimaker Cura (<a href="https://www.youtube.com/watch?v=i-2qFVHKULE">Tutorial1</a>, <a href="https://www.youtube.com/watch?v=ejTC82nLS9g">Tutorial2</a>)
 - Note on tutorial2: 15:25, 27:10, 34:20
 
-### Other notes
+### Debugging
+- For the first print after a long pause, always assume the print will NOT work. Moniter at least until the initial layer is complete
+- Initial layer adhesion problem:
+  - Material/Printing Temperature Initial Layer: 210.0 C
+  - Material/Build Plate Temperature Initial Layer: 65.0 C
+  - Speed/Travel Speed: 100 mm/s
+  - Speed/Initial Layer Speed: 15 mm/s
+  - avoid printing to closed to edge for temperature uniformity
+  - dry the room with a heater before printing
+ 
+|  |  |
+| - | - |
+| Skirts | thin string surround but not connected to the model, for priming (ensuring smooth and consistent flow) the nozzle |
+| Brims  | thin flat layer connected to the base of the model, for improving adhesion |
+| Rafts  | thick flat layer connected to the base of the model, for compensating uneven bedding, mostly for ABS |
+
+- stringing/ozzling/oozing problem: hair at the initial contact of the model, commonly tangles with the nozzle and peels off the initial layer
+  - Travel/Retraction Distance: 7mm
+  - Travel/Retraction Speed: 40mm/s
+  - make the model larger so they can be trimmed mid printing
 - Had a problem with PETG material melting and covering the nozzle that leads to peeling off the first layer. Choose "PETG" default from Cura, turn down the cooling fan to 40%, make the first layer thicker to 0.12mm, lowering down the bed slightly, heat up the bed to 80C, and crop out the excess strings using a plier during the printing of the first layer (also raised the nozzle temperature to 230C; not sure if this helped)
 
