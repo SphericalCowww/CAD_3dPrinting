@@ -15,15 +15,18 @@
 - Note on tutorial2: 15:25, 27:10, 34:20
 
 ### Debugging
-- For the first print after a long pause, always assume the print will NOT work. Moniter at least until the initial layer is complete
-- Initial layer adhesion problem:
+- For the first print after a long pause, always assume the print will NOT work:
+  - Check the filament material is correct, make no assumption!
+  - Adjust table z-position until paper thin
+  - Monitor at least until the initial layer is complete
+- Initial layer adhesion problem (only if there is a problem):
+  - Avoid printing too close to the edge for temperature uniformity
+  - Dry the room with a heater before printing
   - Material/Printing Temperature Initial Layer: 210.0 C
   - Material/Build Plate Temperature Initial Layer: 65.0 C
   - Speed/Travel Speed: 100 mm/s
   - Speed/Initial Layer Speed: 15 mm/s
-  - avoid printing to closed to edge for temperature uniformity
-  - dry the room with a heater before printing
- 
+  
 |  |  |
 | - | - |
 | Skirts | thin string surround but not connected to the model, for priming (ensuring smooth and consistent flow) the nozzle |
